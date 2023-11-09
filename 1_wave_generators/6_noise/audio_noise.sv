@@ -44,7 +44,7 @@ module audio_noise(
 
   // Shift register left
   // LSB is (bit22 ^ bit17)
-  assign noise_shiftreg_next = {noise_shiftreg_ff[21:0], 
+  assign noise_shiftreg_next = {noise_shiftreg_ff[21:0],
                                (noise_shiftreg_ff[22] ^ noise_shiftreg_ff[17])};
 
   always_ff @(posedge clk_i or negedge rstn_i) begin

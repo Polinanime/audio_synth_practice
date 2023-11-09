@@ -1,4 +1,4 @@
-module audio_multichannel 
+module audio_multichannel
 (
   input  logic        clk_i,
   input  logic        rstn_i,

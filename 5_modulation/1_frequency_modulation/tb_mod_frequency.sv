@@ -1,4 +1,4 @@
-`timescale 1ns/1ps 
+`timescale 1ns/1ps
 module tb_mod_frequency();
 
   // Functions to save .wav file

@@ -1,4 +1,4 @@
-module audio_channel 
+module audio_channel
 (
   input  logic        clk_i,
   input  logic        rstn_i,

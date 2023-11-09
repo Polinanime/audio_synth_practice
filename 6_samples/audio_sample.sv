@@ -64,7 +64,7 @@ module audio_sample(
   assign sample_ptr_next = en_i                            ? '0
                          : (sample_ptr_ff == SAMPLE_LEN-1) ? '0
                          :                                   sample_ptr_ff + 1;
-  
+
   assign sample_ptr_en = en_i
                        | (sample_actv_ff & freq_ofl);
 

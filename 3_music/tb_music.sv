@@ -1,4 +1,4 @@
-`timescale 1ns/1ps 
+`timescale 1ns/1ps
 module tb_music();
 
   // Functions to save .wav file
@@ -109,7 +109,7 @@ module tb_music();
 
   logic clk;
   logic rstn;
-  
+
   bit [7:0] audio_data [$];
 
   int sample_rate;
@@ -157,7 +157,7 @@ module tb_music();
     channel_en   = '1;
     repeat(CYCLE/8) @(posedge clk);
     channel_en   = '0;
-    
+
     repeat(CYCLE/8) @(posedge clk);
     channel_en   = '1;
     repeat(CYCLE/8) @(posedge clk);

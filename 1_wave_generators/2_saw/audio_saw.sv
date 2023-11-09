@@ -32,7 +32,7 @@ module audio_saw(
   logic freq_ofl;
   assign freq_ofl = ~freq_counter_ff[FREQ_CNT_WIDTH-1] & freq_msb_dly_ff;
 
-  
+
   // Saw signal generation
   logic [7:0] saw_ff;
 

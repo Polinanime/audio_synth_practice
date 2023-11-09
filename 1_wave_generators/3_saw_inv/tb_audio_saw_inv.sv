@@ -1,4 +1,4 @@
-`timescale 1ns/1ps 
+`timescale 1ns/1ps
 module tb_audio_saw_inv();
 
   // Functions to save .wav file

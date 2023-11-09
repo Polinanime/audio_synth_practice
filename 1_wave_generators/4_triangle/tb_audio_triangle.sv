@@ -1,4 +1,4 @@
-`timescale 1ns/1ps 
+`timescale 1ns/1ps
 module tb_audio_triangle();
 
   // Functions to save .wav file

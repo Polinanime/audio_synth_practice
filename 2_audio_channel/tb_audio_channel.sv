@@ -1,4 +1,4 @@
-`timescale 1ns/1ps 
+`timescale 1ns/1ps
 module tb_audio_channel();
 
   // Functions to save .wav file
@@ -143,15 +143,15 @@ module tb_audio_channel();
 
     repeat(12500000) @(posedge clk);
     channel_gen_sel = 3'd1;
-    repeat(12500000) @(posedge clk);   
+    repeat(12500000) @(posedge clk);
     channel_gen_sel = 3'd2;
-    repeat(12500000) @(posedge clk);   
+    repeat(12500000) @(posedge clk);
     channel_gen_sel = 3'd3;
-    repeat(12500000) @(posedge clk);   
+    repeat(12500000) @(posedge clk);
     channel_gen_sel = 3'd4;
-    repeat(12500000) @(posedge clk);   
+    repeat(12500000) @(posedge clk);
     channel_gen_sel = 3'd5;
-    repeat(12500000) @(posedge clk);   
+    repeat(12500000) @(posedge clk);
 
     sample_rate = 48000;
     sample_bits = 8;

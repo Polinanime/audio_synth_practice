@@ -1,4 +1,4 @@
-`timescale 1ns/1ps 
+`timescale 1ns/1ps
 module tb_music_multichannel();
 
   // Functions to save .wav file
@@ -109,7 +109,7 @@ module tb_music_multichannel();
 
   logic clk;
   logic rstn;
-  
+
   bit [7:0] audio_data [$];
 
   int sample_rate;
@@ -159,7 +159,7 @@ module tb_music_multichannel();
     channel_en   = '1;
     repeat(CYCLE/8) @(posedge clk);
     channel_en   = '0;
-    
+
     repeat(CYCLE/8) @(posedge clk);
     channel_en   = '1;
     repeat(CYCLE/8) @(posedge clk);
@@ -233,7 +233,7 @@ module tb_music_multichannel();
     .ch0_gen_sel_i     (channel0_gen_sel),
     .ch0_freq_i        (channel_freq),
     .ch0_volume_i      (channel_volume),
-    
+
     .ch1_en_i          (channel_en),
     .ch1_gen_sel_i     (channel1_gen_sel),
     .ch1_freq_i        (channel_freq),
