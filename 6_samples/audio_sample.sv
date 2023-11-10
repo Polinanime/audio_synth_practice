@@ -76,7 +76,7 @@ module audio_sample(
   end
 
   // Sample memory
-  logic [7:0] sample_table [24322-1:0];
+  logic [7:0] sample_table [SAMPLE_LEN-1:0];
 
   initial begin
     $readmemh("sample.mem", sample_table);
