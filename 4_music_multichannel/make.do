@@ -19,4 +19,4 @@ vsim  tb_music_multichannel
 # add log -r /*
 
 
-run -all
+# run -all

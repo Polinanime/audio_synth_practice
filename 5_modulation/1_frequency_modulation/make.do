@@ -16,4 +16,4 @@ vsim  tb_mod_frequency
 # add log -r /*
 
 
-run -all
+# run -all

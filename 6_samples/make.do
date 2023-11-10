@@ -9,4 +9,4 @@ vsim  tb_sample
 # add log -r /*
 
 
-run -all
+# run -all

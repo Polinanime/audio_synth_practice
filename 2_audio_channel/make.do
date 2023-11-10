@@ -16,4 +16,4 @@ vsim  tb_audio_channel
 # add log -r /*
 
 
-run -all
+# run -all

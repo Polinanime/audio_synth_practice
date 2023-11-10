@@ -17,4 +17,4 @@ vsim  tb_music
 # add log -r /*
 
 
-run -all
+# run -all

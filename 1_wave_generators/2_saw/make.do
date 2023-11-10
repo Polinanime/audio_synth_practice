@@ -9,4 +9,4 @@ vsim  tb_audio_saw
 # add log -r /*
 
 
-run -all
+# run -all

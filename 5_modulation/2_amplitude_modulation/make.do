@@ -16,4 +16,4 @@ vsim  tb_mod_amplitude
 # add log -r /*
 
 
-run -all
+# run -all
