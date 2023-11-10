@@ -5,7 +5,7 @@
 
 ## Запуск примера
 
-Чтобы запустить пример, выполните в консоли Modelsim:
+Чтобы запустить пример, выполните в консоли Modelsim/Questa:
 ```
 cd audio_synth_practice/3_music
 do make.do
