@@ -8,7 +8,7 @@
 Пример генератора меандра находится в папке `audio_synth_practice/1_wave_generators/1_square`
 
 ## Запуск примера
-Чтобы запустить тестбенч, выполните в консоли Modelsim/Questa:
+Чтобы запустить пример, выполните в консоли Modelsim/Questa:
 ```
 cd audio_synth_practice/1_wave_generators/1_square
 do make.do

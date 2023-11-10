@@ -9,7 +9,7 @@
 Генератор сигнала треугольной формы находится в папке `audio_synth_practice/1_wave_generators/4_triangle`.
 
 ## Запуск примера
-Чтобы запустить тестбенч, выполните в консоли Modelsim/Questa:
+Чтобы запустить пример, выполните в консоли Modelsim/Questa:
 ```
 cd audio_synth_practice/1_wave_generators/4_triangle
 do make.do
