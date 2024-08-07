@@ -1,7 +1,7 @@
 `timescale 1ns/1ps
 `define AUDIO_TRIANGLE
-`include "../../utils/wav_writer.sv"
+`include "../utils/test.sv"
 
 module tb_audio_triangle;
-tb_audio #(.UUT_MODULE("audio_triangle")) tb();
+tb_audio tb();
 endmodule
