@@ -1,5 +1,8 @@
 `timescale 1ns/1ps
+`define AUDIO_SAMPLE
+`include "../utils/wav_writer.sv"
 module tb_sample();
+  wav_writer writer();
 
   // Functions to save .wav file
   function automatic void write_wav_number;
@@ -227,7 +230,7 @@ module tb_sample();
     sample_channels = 1;
     sample_num = audio_data.size();
 
-    write_wav(sample_rate,
+    writer.write_wav(sample_rate,
               sample_bits,
               sample_channels,
               sample_num,
